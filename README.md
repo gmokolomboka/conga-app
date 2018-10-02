@@ -1,6 +1,6 @@
 # conga-app
 
-conga-app is
+conga-app is:
 
    - Conga-Backed (Springboot Application)
    - Spring DATA JPA to retrieve and store data in a relational database 
@@ -23,7 +23,7 @@ This expose RESTFull Web service:
 
 # Angular 6 and NgRx
 
-In comming soon.
+In comming soon...
 
 #Requesting with PostMan:
 
