@@ -1,0 +1,8 @@
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'disportio@pommer.net', 'Dist', 'dess')
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'distnte@eate.fr', 'ouierr', 'Toto')
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'titanom@dodo.net', 'jnhreads', 'kirlme')
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'tresaa@titi.net', 'freghs', 'PMsderas')
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'opiuy@pommer.net', 'Rtesaui', 'Iopmlfgdes')
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'freasse@eate.fr', 'iujkerr', 'daesrr')
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'tiiyutedd@dsade.net', 'sedfrr', 'pmerr')
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'olmetr@oinged.net', 'aqzsed', 'lkdrff')
