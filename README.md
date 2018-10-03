@@ -4,7 +4,7 @@ conga-app is:
 
     - Conga-Backed (Springboot Application)
     - Spring DATA JPA to retrieve and store data in a relational database 
-    - Conga-frontend (Angular 6 with Redux ((Reactive Extensions for Angular)
+    - Conga-frontend uses [Angular 6](https://angular.io/) with [Redux (Reactive Extensions for Angular)] (https://github.com/ngrx)
 
 
 #Running conga-backend
@@ -27,5 +27,5 @@ In comming soon...
 
 # Requesting with PostMan
 
-    You can use postman from : https://www.getpostman.com/apps to request Spring Boot Backend.
-    For more informations: https://www.getpostman.com/docs/v6/
+    You can use [postman] (https://www.getpostman.com/apps) to request Spring Boot Backend.
+    [For more informations] (https://www.getpostman.com/docs/v6/)
