@@ -3,7 +3,7 @@ package com.glm.congo;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "USER")
 public class User {
 
     @Id
