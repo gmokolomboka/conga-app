@@ -30,7 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Cloning repository
 
 If you use Windows:
-
 set http_proxy = set http_proxy=http://USERNAME:ASSWORD@[PROXY_IP:PORT]
 git clone https://github.com/gmokolomboka/conga-app.git
 
