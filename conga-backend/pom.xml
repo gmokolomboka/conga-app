@@ -2,27 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	
 
-<<<<<<< HEAD
 		<parent>
-=======
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-parent</artifactId>
+			<version>1.5.3.RELEASE</version>
+		</parent>
 	
-	<parent>
->>>>>>> a9941e1bf6435c4108d950a102a00f59d0f599b1
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.3.RELEASE</version>
-	</parent>
-	
-<<<<<<< HEAD
-	<groupId>com.glm.conga</groupId>
-    <artifactId>conga-backend</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+		<groupId>com.glm.conga</groupId>
+		<artifactId>conga-backend</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<packaging>jar</packaging>
     
-	<name>conga-backend</name>
-	<description>The conga-backend project</description>
-=======
+		<name>conga-backend</name>
+		<description>The conga-backend project</description>
 	    <groupId>com.glm.conga</groupId>
 	    <artifactId>conga-backend</artifactId>
 	    <version>1.0-SNAPSHOT</version>
@@ -30,8 +24,6 @@
     
 	<name>conga-backend</name>
 	<description>The conga-backend project</description>
-
->>>>>>> a9941e1bf6435c4108d950a102a00f59d0f599b1
 
 	<dependencies>
 		<dependency>
@@ -101,16 +93,6 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
 		</dependency>
-
-<<<<<<< HEAD
-<!-- 		<dependency>
-			<groupId>com.glm.bondocare.BondoCareApplication</groupId>
-			<artifactId>bondo-care-backend</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>runtime</scope>
-		</dependency> -->
-=======
->>>>>>> a9941e1bf6435c4108d950a102a00f59d0f599b1
 	</dependencies>
 
 	<build>
