@@ -1,4 +1,4 @@
-package com.glm.congo;
+package com.glm.conga;
 
 import java.util.List;
 
