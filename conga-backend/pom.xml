@@ -88,12 +88,6 @@
 			<optional>true</optional>
 		</dependency>
 
-		<dependency>
-			<groupId>com.glm.bondocare.BondoCareApplication</groupId>
-			<artifactId>bondo-care-backend</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>runtime</scope>
-		</dependency>
 	</dependencies>
 
 	<build>
