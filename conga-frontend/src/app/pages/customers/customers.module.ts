@@ -6,11 +6,13 @@ import { CustomersComponent } from './customers.component';
 import { CreateCustomerComponent } from './create-customer/create-customer.component';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 import { CustomersListComponent } from './customers-list/customers-list.component';
+import { ThemeModule } from '../../@theme/theme.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    CustomersRoutingModule
+    CustomersRoutingModule,
+    ThemeModule,
   ],
   declarations: [CustomersComponent, CreateCustomerComponent, CustomerDetailsComponent, CustomersListComponent]
 })

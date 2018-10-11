@@ -19,13 +19,13 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
 
   {
-    title: 'Details',
+    title: 'Customer Details',
     icon: 'nb-compose',
-    link: '/pages/customers/customers-details',
+    link: '/pages/customers/customer-details',
   },
 
   {
-    title: 'List',
+    title: 'Customers List',
     icon: 'nb-compose',
     link: '/pages/customers/customers-list',
   },

@@ -1,3 +1,68 @@
-<p>
-  create-customer works!
-</p>
+<nb-card>
+  <nb-tabset>
+    <nb-tab tabTitle="Saisie diamant">
+  
+      <div class="row">
+
+        <div class="col-lg-6">
+          <nb-card> <nb-card-header>Création</nb-card-header> <nb-card-body>
+          <form>
+              <div class="form-group">
+                  <select (change)="selectedShapeHandler($event)" class="form-control">
+                    <option value="" selected disabled hidden>Choisir la civilité</option>
+                    <option>Mademoiselle</option>
+                    <option>Monsieur</option>
+                    <option>Madame</option>
+                  </select>
+                </div>
+         
+            <div class="input-group">
+              <input type="text" placeholder=" nom utilisateur" #username
+                class="form-control" />
+            </div>
+      
+            <div class="input-group">
+              <input type="text" placeholder="Nom client" #lastname
+                class="form-control" />
+            </div>
+
+
+            <div class="input-group">
+                <input type="text" placeholder="Prenom client" #firstname
+                  class="form-control" />
+              </div>
+
+              <div class="input-group">
+                  <input type="text" placeholder="E-mail" #email
+                    class="form-control" />
+              </div>
+  
+              <div class="input-group">
+                  <input type="text" placeholder="Age" #age
+                    class="form-control" />
+              </div>
+  
+      
+            <div class="row full-name-inputs">
+              <div class="col-sm-6 input-group">
+                <button type="submit" class="btn btn-primary">Annuler</button>
+              </div>
+      
+              <div class="col-sm-6 input-group">
+                <button type="submit" class="btn btn-primary"
+                  (click)="saveCustomert(username, lastname,firstname, email, age)">Save</button>
+              </div>
+            </div>
+            </form>
+          </nb-card-body> </nb-card>
+        </div>
+      </div>				
+     </nb-tab>
+  <!--
+     <nb-tab tabTitle="Consulation">
+      <p>Bonjour consult</p>
+    </nb-tab>
+  -->
+  </nb-tabset>
+  </nb-card>
+  
