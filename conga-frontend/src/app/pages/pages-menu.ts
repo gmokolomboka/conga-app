@@ -11,6 +11,26 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'FEATURES',
     group: true,
   },
+
+  {
+    title: 'Manage customer',
+    icon: 'nb-compose',
+    link: '/pages/customers',
+  },
+/*
+  {
+    title: 'Customer Details',
+    icon: 'nb-compose',
+    link: '/pages/customers/customer-details',
+  },
+
+  {
+    title: 'Customers List',
+    icon: 'nb-compose',
+    link: '/pages/customers/customers-list',
+  },
+*/
+
   {
     title: 'Auth',
     icon: 'nb-locked',

@@ -1,4 +1,4 @@
-package com.glm.congo;
+package com.glm.conga;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

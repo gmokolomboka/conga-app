@@ -12,6 +12,10 @@ const routes: Routes = [{
       path: 'dashboard',
       component: DashboardComponent,
     },
+    { 
+        path: 'customers', 
+        loadChildren: './customers/customers.module#CustomersModule' 
+    },
     {
       path: '',
       redirectTo: 'dashboard',

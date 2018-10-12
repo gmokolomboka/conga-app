@@ -1,4 +1,4 @@
-package com.glm.congo;
+package com.glm.conga;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
