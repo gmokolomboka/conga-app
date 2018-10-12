@@ -1,12 +1,20 @@
 export class Customer {
     id: string;
-    name: string;
+    civility: string;
+    username : string;
+    lastname: string;
+    firstname:string;
+    email:string
     age: number;
     active: boolean;
 
-    constructor(id?: string, name?: string, age?: number, active?: boolean) {
+    constructor(id?: string, civility?:string, username?: string, lastname?: string,firstname?: string, email?: string,age?: number, active?: boolean) {
         this.id = id;
-        this.name = name;
+        this.civility= civility;
+        this.username = username;
+        this.lastname = lastname;
+        this.firstname = firstname;
+        this.email = email;
         this.age = age;
         this.active = active;
     }

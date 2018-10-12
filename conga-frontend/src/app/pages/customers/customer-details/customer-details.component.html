@@ -1,3 +1,39 @@
-<p>
-  customer-details works!
-</p>
+<nb-card>
+       <div class="row">
+          <div class="col-lg-6">
+            <nb-card> <nb-card-header>Détails client</nb-card-header> <nb-card-body>
+           
+                <div *ngIf="customer">
+                    <div>
+                      <label>Nom utilsateur: </label> {{customer.name}}
+                    </div>
+
+                    <div>
+                        <label>Nom: </label> {{customer.lastname}}
+                    </div>
+
+                      
+                    <div>
+                        <label>Prénom: </label> {{customer.firstname}}
+                    </div>
+
+                      
+                    <div>
+                        <label>E-mail: </label> {{customer.email}}
+                    </div>
+
+                      
+                    <div>
+                        <label>Âge: </label> {{customer.age}}
+                    </div>
+
+                    
+                    <span class="button is-small btn-danger" (click)='removeCustomer(customer.username)'>Delete</span>
+                     <hr/>
+                  </div>
+            </nb-card-body> </nb-card>
+          </div>
+        </div>				
+    </nb-card>
+
+   

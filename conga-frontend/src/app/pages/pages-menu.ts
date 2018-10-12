@@ -13,11 +13,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
 
   {
-    title: 'Customer create',
+    title: 'Manage customer',
     icon: 'nb-compose',
-    link: '/pages/customers/create-customer',
+    link: '/pages/customers',
   },
-
+/*
   {
     title: 'Customer Details',
     icon: 'nb-compose',
@@ -29,7 +29,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'nb-compose',
     link: '/pages/customers/customers-list',
   },
-
+*/
 
   {
     title: 'Auth',

@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Customer } from '../models/customer';
+import { Store } from '@ngrx/store';
+import { AppState } from '../../../app.state';
+import { DeleteCustomer } from '../actions/customer.actions';
 
 @Component({
   selector: 'customer-details',
@@ -7,9 +11,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomerDetailsComponent implements OnInit {
 
-  constructor() { }
+  @Input() customer: Customer;
+
+  constructor(private store: Store<AppState>) { }
 
   ngOnInit() {
   }
 
+  removeCustomer(username) {
+    this.store.dispatch(new DeleteCustomer(username));
+  }
 }
