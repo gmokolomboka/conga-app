@@ -12,14 +12,13 @@ import { reducer } from './reducers/customer.reducer';
 
 @NgModule({
   imports: [
-    CommonModule,
     CustomersRoutingModule,
     ThemeModule,
     StoreModule.forRoot({
       customer:reducer
     })
   ],
-  declarations: [CustomersComponent, CreateCustomerComponent, CustomerDetailsComponent, CustomersListComponent]
+  declarations: [CustomersComponent, CreateCustomerComponent, CustomerDetailsComponent, CustomersListComponent],
 })
 export class CustomersModule { }
 

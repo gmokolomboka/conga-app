@@ -3,6 +3,7 @@ import { Store } from '@ngrx/store';
 import { AppState } from '../../../app.state';
 import { CreateCustomer } from '../actions/customer.actions';
 import { Customer } from '../models/customer';
+import {Actions, CREATE_CUSTOMER } from '../actions/customer.actions';
 
 @Component({
   selector: 'create-customer',
@@ -11,9 +12,7 @@ import { Customer } from '../models/customer';
 })
 export class CreateCustomerComponent implements OnInit {
 
-  customer$: Customer;
-
-  constructor(private store: Store<AppState>) { }
+  constructor(public store: Store<AppState>) { }
 
   ngOnInit() {
   }
@@ -23,13 +22,6 @@ export class CreateCustomerComponent implements OnInit {
   onSelectedCivility (event: any) {
     this.selectedCivility = event.target.value;
   }
-
-  saveCustomerS(id,selectedCivility, username, lastname,firstname, email, age) {
-
-    this.customer$ = new Customer(id,selectedCivility,username,lastname,firstname,email,age, false);
-    this.store.dispatch(new CreateCustomer(this.customer$ ));
-  }
-
 
   saveCustomer(id,selectedCivility,username,lastname,firstname,email,age) {
     this.store.dispatch(new CreateCustomer(
