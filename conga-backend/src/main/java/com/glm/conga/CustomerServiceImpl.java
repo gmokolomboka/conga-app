@@ -6,19 +6,19 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class UserServiceImpl implements UserService {
+public class CustomerServiceImpl implements CustomerService {
 
     @Autowired
-    private UserRepository repository;
+    private CustomerRepository repository;
 
     @Override
-    public User create(User user) {
+    public Customer create(Customer user) {
         return repository.save(user);
     }
 
     @Override
-    public User delete(int id) {
-        User user = findById(id);
+    public Customer delete(int id) {
+        Customer user = findById(id);
         if(user != null){
             repository.delete(user);
         }
@@ -26,17 +26,17 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<User> findAll() {
+    public List<Customer> findAll() {
         return repository.findAll();
     }
 
     @Override
-    public User findById(int id) {
+    public Customer findById(int id) {
         return repository.findOne(id);
     }
 
     @Override
-    public User update(User user) {
+    public Customer update(Customer user) {
         return repository.save(user);
     }
 }

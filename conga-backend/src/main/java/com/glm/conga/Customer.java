@@ -3,8 +3,8 @@ package com.glm.conga;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "USER")
-public class User {
+@Table(name = "CUSTOMER")
+public class Customer {
 
     @Id
     @Column
@@ -48,4 +48,14 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
+	}
+    
+    
 }
