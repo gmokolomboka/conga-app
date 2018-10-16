@@ -1,3 +1,5 @@
+import { environment } from '../../../../environments/environment';
+
 /**
  * @license
  * Copyright Akveo. All Rights Reserved.
@@ -8,7 +10,8 @@
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
-export const environment = {
-  production: false,
-  api : 'http://localhost:8181/api/'
+export const api = {
+  create: environment.api + 'customers',
+  delete: environment.api + 'customers',
+  update:environment.api + 'customers',
 };
