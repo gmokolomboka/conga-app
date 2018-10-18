@@ -9,16 +9,19 @@ import { CustomersListComponent } from './customers-list/customers-list.componen
 import { ThemeModule } from '../../@theme/theme.module';
 import { StoreModule } from '@ngrx/store';
 import { reducer } from './reducers/customer.reducer';
+import { EffectsModule } from '@ngrx/effects';
+import { CustomerEffects } from './effects/customer.effects';
+import { CustomerService } from './services/customer.service';
 
 @NgModule({
   imports: [
     CustomersRoutingModule,
     ThemeModule,
-    StoreModule.forRoot({
-      customer:reducer
-    })
+    StoreModule.forRoot({ customer:reducer }),
+    EffectsModule.forRoot([CustomerEffects])
   ],
   declarations: [CustomersComponent, CreateCustomerComponent, CustomerDetailsComponent, CustomersListComponent],
+  providers: [CustomerService]
 })
 export class CustomersModule { }
 
