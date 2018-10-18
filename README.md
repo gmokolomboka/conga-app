@@ -15,11 +15,11 @@ mvn spring-boot:run
 
 This expose RESTFull Web service: 
 
-    - To retrieve all Users - @GetMapping(“/users”)
-    - To get details of specific user - @GetMapping(“/users/{id}”)
-    - To delete a user - @DeleteMapping(“/users/{id}”)
-    - To create a new User - @PostMapping(“/users/user”)
-    - To update user details - @PutMapping(“/users/{id}”).
+    - To retrieve all Customers - @GetMapping(“/api/customers)
+    - To get details of specific customer - @GetMapping(“/api/customers/{id}”)
+    - To delete a customer - @DeleteMapping(“/api/customers/{id}”)
+    - To create a new Customer - @PostMapping(“/api/customers/{customer})
+    - To update customer details - @PutMapping(“/api/customer/{id}”).
 
 # Angular 6 and NgRx
 
