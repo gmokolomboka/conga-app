@@ -11,12 +11,21 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @Column
+    private String civility;
+    @Column
+    private String username;
+    @Column
     private String firstName;
     @Column
     private String lastName;
     @Column
     private String email;
+    @Column
+    private Integer age;
+    @Column
+    private boolean active;
 
+    
     public int getId() {
         return id;
     }
@@ -49,13 +58,69 @@ public class Customer {
         this.email = email;
     }
 
+	/**
+	 * @return the civility
+	 */
+	public String getCivility() {
+		return civility;
+	}
+
+	/**
+	 * @param civility the civility to set
+	 */
+	public void setCivility(String civility) {
+		this.civility = civility;
+	}
+
+	/**
+	 * @return the username
+	 */
+	public String getUsername() {
+		return username;
+	}
+
+	/**
+	 * @param username the username to set
+	 */
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	/**
+	 * @return the age
+	 */
+	public Integer getAge() {
+		return age;
+	}
+
+	/**
+	 * @param age the age to set
+	 */
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+
+	/**
+	 * @return the active
+	 */
+	public boolean isActive() {
+		return active;
+	}
+
+	/**
+	 * @param active the active to set
+	 */
+	public void setActive(boolean active) {
+		this.active = active;
+	}
+
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
+		return "Customer [id=" + id + ", civility=" + civility + ", username=" + username + ", firstName=" + firstName
+				+ ", lastName=" + lastName + ", email=" + email + ", age=" + age + ", active=" + active + "]";
 	}
-    
-    
+
 }

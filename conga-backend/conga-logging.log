@@ -2088,3 +2088,620 @@ Using default security password: 765ba792-d24c-4c08-975c-1fef6ea6c610
 2018-10-16 21:53:02.116  INFO 3741 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
 2018-10-16 21:53:02.176  INFO 3741 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8181 (http)
 2018-10-16 21:53:02.182  INFO 3741 --- [restartedMain] com.glm.conga.CongaApplication           : Started CongaApplication in 2.662 seconds (JVM running for 1124.914)
+2018-10-18 18:26:53.531  INFO 16964 --- [restartedMain] com.glm.conga.CongaApplication           : Starting CongaApplication on ACCOR-S4FW3508 with PID 16964 (C:\glm\gitRepository\conga-app\conga-backend\target\classes started by A609213 in C:\glm\gitRepository\conga-app\conga-backend)
+2018-10-18 18:26:53.553  INFO 16964 --- [restartedMain] com.glm.conga.CongaApplication           : No active profile set, falling back to default profiles: default
+2018-10-18 18:26:53.745  INFO 16964 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11c8102d: startup date [Thu Oct 18 18:26:53 CEST 2018]; root of context hierarchy
+2018-10-18 18:26:55.892  INFO 16964 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Dbcp; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Dbcp.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2018-10-18 18:26:58.329  INFO 16964 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8181 (http)
+2018-10-18 18:26:58.401  INFO 16964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-10-18 18:26:58.408  INFO 16964 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-10-18 18:26:58.727  INFO 16964 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-10-18 18:26:58.730  INFO 16964 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4989 ms
+2018-10-18 18:26:59.149  INFO 16964 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-18 18:26:59.150  INFO 16964 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-18 18:26:59.150  INFO 16964 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-18 18:26:59.151  INFO 16964 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-18 18:26:59.153  INFO 16964 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-10-18 18:26:59.154  INFO 16964 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-18 18:26:59.156  INFO 16964 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'webServlet' to [/console/*]
+2018-10-18 18:27:00.730  INFO 16964 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-10-18 18:27:00.786  INFO 16964 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-10-18 18:27:01.813  INFO 16964 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-10-18 18:27:01.816  INFO 16964 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-10-18 18:27:01.819  INFO 16964 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-10-18 18:27:01.895  INFO 16964 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-18 18:27:02.168  INFO 16964 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-10-18 18:27:03.072  INFO 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2018-10-18 18:27:03.093  INFO 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000476: Executing import script '/import.sql'
+2018-10-18 18:27:03.099 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000388: Unsuccessful: INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'disportio@pommer.net', 'Dist', 'dess')
+2018-10-18 18:27:03.099 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : Table "USER" not found; SQL statement:
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'disportio@pommer.net', 'Dist', 'dess') [42102-194]
+2018-10-18 18:27:03.100 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000388: Unsuccessful: INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'distnte@eate.fr', 'ouierr', 'Toto')
+2018-10-18 18:27:03.101 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : Table "USER" not found; SQL statement:
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'distnte@eate.fr', 'ouierr', 'Toto') [42102-194]
+2018-10-18 18:27:03.102 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000388: Unsuccessful: INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'titanom@dodo.net', 'jnhreads', 'kirlme')
+2018-10-18 18:27:03.102 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : Table "USER" not found; SQL statement:
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'titanom@dodo.net', 'jnhreads', 'kirlme') [42102-194]
+2018-10-18 18:27:03.102 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000388: Unsuccessful: INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'tresaa@titi.net', 'freghs', 'PMsderas')
+2018-10-18 18:27:03.103 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : Table "USER" not found; SQL statement:
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'tresaa@titi.net', 'freghs', 'PMsderas') [42102-194]
+2018-10-18 18:27:03.104 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000388: Unsuccessful: INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'opiuy@pommer.net', 'Rtesaui', 'Iopmlfgdes')
+2018-10-18 18:27:03.105 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : Table "USER" not found; SQL statement:
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'opiuy@pommer.net', 'Rtesaui', 'Iopmlfgdes') [42102-194]
+2018-10-18 18:27:03.106 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000388: Unsuccessful: INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'freasse@eate.fr', 'iujkerr', 'daesrr')
+2018-10-18 18:27:03.106 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : Table "USER" not found; SQL statement:
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'freasse@eate.fr', 'iujkerr', 'daesrr') [42102-194]
+2018-10-18 18:27:03.107 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000388: Unsuccessful: INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'tiiyutedd@dsade.net', 'sedfrr', 'pmerr')
+2018-10-18 18:27:03.107 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : Table "USER" not found; SQL statement:
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'tiiyutedd@dsade.net', 'sedfrr', 'pmerr') [42102-194]
+2018-10-18 18:27:03.107 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000388: Unsuccessful: INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'olmetr@oinged.net', 'aqzsed', 'lkdrff')
+2018-10-18 18:27:03.108 ERROR 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : Table "USER" not found; SQL statement:
+INSERT INTO USER (ID,EMAIL,FIRST_NAME, LAST_NAME) VALUES (null, 'olmetr@oinged.net', 'aqzsed', 'lkdrff') [42102-194]
+2018-10-18 18:27:03.108  INFO 16964 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2018-10-18 18:27:03.167  INFO 16964 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-10-18 18:27:04.675  INFO 16964 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11c8102d: startup date [Thu Oct 18 18:26:53 CEST 2018]; root of context hierarchy
+2018-10-18 18:27:04.790  INFO 16964 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/customers/{id}],methods=[PUT]}" onto public com.glm.conga.Customer com.glm.conga.CustomerController.update(int,com.glm.conga.Customer)
+2018-10-18 18:27:04.793  INFO 16964 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/customers/{id}],methods=[DELETE]}" onto public com.glm.conga.Customer com.glm.conga.CustomerController.delete(int)
+2018-10-18 18:27:04.793  INFO 16964 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/customers],methods=[POST]}" onto public com.glm.conga.Customer com.glm.conga.CustomerController.create(com.glm.conga.Customer)
+2018-10-18 18:27:04.794  INFO 16964 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/customers],methods=[GET]}" onto public java.util.List<com.glm.conga.Customer> com.glm.conga.CustomerController.findAll()
+2018-10-18 18:27:04.795  INFO 16964 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/customers/{id}],methods=[GET]}" onto public com.glm.conga.Customer com.glm.conga.CustomerController.findOne(int)
+2018-10-18 18:27:04.797  INFO 16964 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-18 18:27:04.797  INFO 16964 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-18 18:27:04.850  INFO 16964 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-18 18:27:04.851  INFO 16964 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-18 18:27:04.919  INFO 16964 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-18 18:27:05.495 DEBUG 16964 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration=org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$$EnhancerBySpringCGLIB$$fb4e77fa@7a50e444}
+2018-10-18 18:27:05.527  INFO 16964 --- [restartedMain] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 35264987-98e7-47e3-95ad-27058492c2b4
+
+2018-10-18 18:27:05.666  INFO 16964 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-10-18 18:27:05.832  INFO 16964 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@7b87dc94, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53a4cf2a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b01a6d7, org.springframework.security.web.header.HeaderWriterFilter@470b87f1, org.springframework.security.web.csrf.CsrfFilter@5de57621, org.springframework.security.web.authentication.logout.LogoutFilter@36a61f2e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1515bcb6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49b12c2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58d8544f, org.springframework.security.web.session.SessionManagementFilter@5780827f, org.springframework.security.web.access.ExceptionTranslationFilter@461d4db2]
+2018-10-18 18:27:06.148  INFO 16964 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-10-18 18:27:06.421  INFO 16964 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-18 18:27:06.761  INFO 16964 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8181 (http)
+2018-10-18 18:27:06.791  INFO 16964 --- [restartedMain] com.glm.conga.CongaApplication           : Started CongaApplication in 13.865 seconds (JVM running for 15.398)
+2018-10-18 18:44:13.806 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:13.807 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console'; against '/css/**'
+2018-10-18 18:44:13.809 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:13.809 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console'; against '/js/**'
+2018-10-18 18:44:13.810 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:13.811 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console'; against '/images/**'
+2018-10-18 18:44:13.813 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:13.813 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console'; against '/webjars/**'
+2018-10-18 18:44:13.813 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:13.813 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console'; against '/**/favicon.ico'
+2018-10-18 18:44:13.820 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:13.823 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console'; against '/error'
+2018-10-18 18:44:13.823 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:13.823 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.security.web.FilterChainProxy        : /console has no matching filters
+2018-10-18 18:44:13.854 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:13.854 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/'; against '/css/**'
+2018-10-18 18:44:13.854 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:13.854 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/'; against '/js/**'
+2018-10-18 18:44:13.856 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:13.857 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/'; against '/images/**'
+2018-10-18 18:44:13.858 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:13.859 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/'; against '/webjars/**'
+2018-10-18 18:44:13.859 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:13.860 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/'; against '/**/favicon.ico'
+2018-10-18 18:44:13.862 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:13.864 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/'; against '/error'
+2018-10-18 18:44:13.865 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:13.867 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.security.web.FilterChainProxy        : /console/ has no matching filters
+2018-10-18 18:44:13.963 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:13.963 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/css/**'
+2018-10-18 18:44:13.963 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:13.963 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/js/**'
+2018-10-18 18:44:13.963 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:13.963 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/images/**'
+2018-10-18 18:44:13.964 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:13.965 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/webjars/**'
+2018-10-18 18:44:13.965 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:13.965 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/**/favicon.ico'
+2018-10-18 18:44:13.965 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:13.965 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/error'
+2018-10-18 18:44:13.965 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:13.965 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.security.web.FilterChainProxy        : /console/stylesheet.css has no matching filters
+2018-10-18 18:44:14.043 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:14.043 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.jsp'; against '/css/**'
+2018-10-18 18:44:14.043 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:14.043 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.jsp'; against '/js/**'
+2018-10-18 18:44:14.043 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:14.044 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.jsp'; against '/images/**'
+2018-10-18 18:44:14.044 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:14.044 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.jsp'; against '/webjars/**'
+2018-10-18 18:44:14.044 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:14.044 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.jsp'; against '/**/favicon.ico'
+2018-10-18 18:44:14.044 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:14.044 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.jsp'; against '/error'
+2018-10-18 18:44:14.044 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:14.044 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.security.web.FilterChainProxy        : /console/login.jsp?jsessionid=19024b973d1df5d8b27470c3e47dbbb8 has no matching filters
+2018-10-18 18:44:14.192 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:14.193 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/background.gif'; against '/css/**'
+2018-10-18 18:44:14.193 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:14.193 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/background.gif'; against '/js/**'
+2018-10-18 18:44:14.193 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:14.193 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/background.gif'; against '/images/**'
+2018-10-18 18:44:14.193 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:14.193 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/background.gif'; against '/webjars/**'
+2018-10-18 18:44:14.193 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:14.193 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/background.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:14.194 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:14.194 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/background.gif'; against '/error'
+2018-10-18 18:44:14.194 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:14.194 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.security.web.FilterChainProxy        : /console/background.gif has no matching filters
+2018-10-18 18:44:14.409  INFO 16964 --- [http-nio-8181-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-10-18 18:44:14.410  INFO 16964 --- [http-nio-8181-exec-7] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-18 18:44:14.548  INFO 16964 --- [http-nio-8181-exec-7] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 138 ms
+2018-10-18 18:44:14.549 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/favicon.ico'; against '/css/**'
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/favicon.ico'; against '/js/**'
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/favicon.ico'; against '/images/**'
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/favicon.ico'; against '/webjars/**'
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/favicon.ico'; against '/**/favicon.ico'
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : matched
+2018-10-18 18:44:14.550 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.security.web.FilterChainProxy        : /favicon.ico has an empty filter list
+2018-10-18 18:44:32.240 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.244 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.do'; against '/css/**'
+2018-10-18 18:44:32.245 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.245 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.do'; against '/js/**'
+2018-10-18 18:44:32.246 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.247 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.do'; against '/images/**'
+2018-10-18 18:44:32.248 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.249 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.do'; against '/webjars/**'
+2018-10-18 18:44:32.249 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.250 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.do'; against '/**/favicon.ico'
+2018-10-18 18:44:32.252 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.252 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/login.do'; against '/error'
+2018-10-18 18:44:32.252 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.255 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.security.web.FilterChainProxy        : /console/login.do?jsessionid=19024b973d1df5d8b27470c3e47dbbb8 has no matching filters
+2018-10-18 18:44:32.303 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.303 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/css/**'
+2018-10-18 18:44:32.303 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.303 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/js/**'
+2018-10-18 18:44:32.303 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.303 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/images/**'
+2018-10-18 18:44:32.303 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.303 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/webjars/**'
+2018-10-18 18:44:32.303 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.304 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/**/favicon.ico'
+2018-10-18 18:44:32.306 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.307 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/stylesheet.css'; against '/error'
+2018-10-18 18:44:32.307 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.307 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.security.web.FilterChainProxy        : /console/stylesheet.css has no matching filters
+2018-10-18 18:44:32.389 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.390 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/header.jsp'; against '/css/**'
+2018-10-18 18:44:32.390 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.390 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/header.jsp'; against '/js/**'
+2018-10-18 18:44:32.391 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.392 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/header.jsp'; against '/images/**'
+2018-10-18 18:44:32.392 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.392 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/header.jsp'; against '/webjars/**'
+2018-10-18 18:44:32.392 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.392 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/header.jsp'; against '/**/favicon.ico'
+2018-10-18 18:44:32.393 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.393 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/header.jsp'; against '/error'
+2018-10-18 18:44:32.393 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.393 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.security.web.FilterChainProxy        : /console/header.jsp?jsessionid=19024b973d1df5d8b27470c3e47dbbb8 has no matching filters
+2018-10-18 18:44:32.402 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.402 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tables.do'; against '/css/**'
+2018-10-18 18:44:32.402 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tables.do'; against '/js/**'
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tables.do'; against '/images/**'
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tables.do'; against '/webjars/**'
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tables.do'; against '/**/favicon.ico'
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tables.do'; against '/error'
+2018-10-18 18:44:32.404 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.408 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.security.web.FilterChainProxy        : /console/tables.do?jsessionid=19024b973d1df5d8b27470c3e47dbbb8 has no matching filters
+2018-10-18 18:44:32.448 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.448 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/query.jsp'; against '/css/**'
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/query.jsp'; against '/js/**'
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/query.jsp'; against '/images/**'
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/query.jsp'; against '/webjars/**'
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/query.jsp'; against '/**/favicon.ico'
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/query.jsp'; against '/error'
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.449 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.security.web.FilterChainProxy        : /console/query.jsp?jsessionid=19024b973d1df5d8b27470c3e47dbbb8 has no matching filters
+2018-10-18 18:44:32.496 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.496 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/help.jsp'; against '/css/**'
+2018-10-18 18:44:32.496 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.496 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/help.jsp'; against '/js/**'
+2018-10-18 18:44:32.496 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.496 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/help.jsp'; against '/images/**'
+2018-10-18 18:44:32.496 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.498 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/help.jsp'; against '/webjars/**'
+2018-10-18 18:44:32.498 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.498 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/help.jsp'; against '/**/favicon.ico'
+2018-10-18 18:44:32.498 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.498 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/help.jsp'; against '/error'
+2018-10-18 18:44:32.498 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.509 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.security.web.FilterChainProxy        : /console/help.jsp?jsessionid=19024b973d1df5d8b27470c3e47dbbb8 has no matching filters
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_disconnect.gif'; against '/css/**'
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_disconnect.gif'; against '/js/**'
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_disconnect.gif'; against '/images/**'
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_disconnect.gif'; against '/webjars/**'
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.622 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_disconnect.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.623 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.623 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_disconnect.gif'; against '/error'
+2018-10-18 18:44:32.623 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.623 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.security.web.FilterChainProxy        : /console/icon_disconnect.gif has no matching filters
+2018-10-18 18:44:32.627 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.627 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_line.gif'; against '/css/**'
+2018-10-18 18:44:32.628 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.628 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_line.gif'; against '/js/**'
+2018-10-18 18:44:32.628 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.628 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_line.gif'; against '/images/**'
+2018-10-18 18:44:32.628 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.628 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_line.gif'; against '/webjars/**'
+2018-10-18 18:44:32.628 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.628 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_line.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.628 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.630 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_line.gif'; against '/error'
+2018-10-18 18:44:32.630 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.630 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.security.web.FilterChainProxy        : /console/icon_line.gif has no matching filters
+2018-10-18 18:44:32.664 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_refresh.gif'; against '/css/**'
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_refresh.gif'; against '/js/**'
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_refresh.gif'; against '/images/**'
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_refresh.gif'; against '/webjars/**'
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_refresh.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.665 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_refresh.gif'; against '/error'
+2018-10-18 18:44:32.666 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.666 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.security.web.FilterChainProxy        : /console/icon_refresh.gif has no matching filters
+2018-10-18 18:44:32.696 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_rollback.gif'; against '/css/**'
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_rollback.gif'; against '/js/**'
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_rollback.gif'; against '/images/**'
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_rollback.gif'; against '/webjars/**'
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_rollback.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_rollback.gif'; against '/error'
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.697 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.security.web.FilterChainProxy        : /console/icon_rollback.gif has no matching filters
+2018-10-18 18:44:32.702 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.702 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_help.gif'; against '/css/**'
+2018-10-18 18:44:32.702 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.702 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_help.gif'; against '/js/**'
+2018-10-18 18:44:32.702 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.702 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_help.gif'; against '/images/**'
+2018-10-18 18:44:32.702 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.703 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_help.gif'; against '/webjars/**'
+2018-10-18 18:44:32.703 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.703 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_help.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.703 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.703 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_help.gif'; against '/error'
+2018-10-18 18:44:32.703 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.703 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.security.web.FilterChainProxy        : /console/icon_help.gif has no matching filters
+2018-10-18 18:44:32.709 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.709 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.709 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_commit.gif'; against '/css/**'
+2018-10-18 18:44:32.709 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.709 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_commit.gif'; against '/js/**'
+2018-10-18 18:44:32.709 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_commit.gif'; against '/images/**'
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_history.gif'; against '/css/**'
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_commit.gif'; against '/webjars/**'
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_commit.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_history.gif'; against '/js/**'
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_commit.gif'; against '/error'
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.711 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.security.web.FilterChainProxy        : /console/icon_commit.gif has no matching filters
+2018-10-18 18:44:32.709 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run.gif'; against '/css/**'
+2018-10-18 18:44:32.711 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run.gif'; against '/js/**'
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run.gif'; against '/images/**'
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run.gif'; against '/webjars/**'
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run.gif'; against '/error'
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.security.web.FilterChainProxy        : /console/icon_run.gif has no matching filters
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_stop.gif'; against '/css/**'
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_stop.gif'; against '/js/**'
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_stop.gif'; against '/images/**'
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_stop.gif'; against '/webjars/**'
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_stop.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.710 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_history.gif'; against '/images/**'
+2018-10-18 18:44:32.714 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_stop.gif'; against '/error'
+2018-10-18 18:44:32.717 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.717 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.security.web.FilterChainProxy        : /console/icon_stop.gif has no matching filters
+2018-10-18 18:44:32.713 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run_selected.gif'; against '/css/**'
+2018-10-18 18:44:32.721 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.721 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run_selected.gif'; against '/js/**'
+2018-10-18 18:44:32.721 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.721 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run_selected.gif'; against '/images/**'
+2018-10-18 18:44:32.721 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.721 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run_selected.gif'; against '/webjars/**'
+2018-10-18 18:44:32.721 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.721 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run_selected.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.722 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.722 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_run_selected.gif'; against '/error'
+2018-10-18 18:44:32.722 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.722 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.security.web.FilterChainProxy        : /console/icon_run_selected.gif has no matching filters
+2018-10-18 18:44:32.717 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.726 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_history.gif'; against '/webjars/**'
+2018-10-18 18:44:32.726 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.726 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_history.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.726 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.726 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/icon_history.gif'; against '/error'
+2018-10-18 18:44:32.726 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.726 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.security.web.FilterChainProxy        : /console/icon_history.gif has no matching filters
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree.js'; against '/css/**'
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree.js'; against '/js/**'
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree.js'; against '/images/**'
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree.js'; against '/webjars/**'
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree.js'; against '/**/favicon.ico'
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.791 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree.js'; against '/error'
+2018-10-18 18:44:32.792 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.792 DEBUG 16964 --- [http-nio-8181-exec-1] o.s.security.web.FilterChainProxy        : /console/tree.js has no matching filters
+2018-10-18 18:44:32.830 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.831 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_plus.gif'; against '/css/**'
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_plus.gif'; against '/js/**'
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_plus.gif'; against '/images/**'
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_plus.gif'; against '/webjars/**'
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_plus.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_plus.gif'; against '/error'
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.832 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.security.web.FilterChainProxy        : /console/tree_plus.gif has no matching filters
+2018-10-18 18:44:32.848 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.849 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_minus.gif'; against '/css/**'
+2018-10-18 18:44:32.849 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.850 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_minus.gif'; against '/js/**'
+2018-10-18 18:44:32.850 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.850 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_minus.gif'; against '/images/**'
+2018-10-18 18:44:32.850 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.851 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_minus.gif'; against '/webjars/**'
+2018-10-18 18:44:32.851 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.851 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_minus.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.851 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.851 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_minus.gif'; against '/error'
+2018-10-18 18:44:32.851 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.851 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.security.web.FilterChainProxy        : /console/tree_minus.gif has no matching filters
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_empty.gif'; against '/css/**'
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_empty.gif'; against '/js/**'
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_empty.gif'; against '/images/**'
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_empty.gif'; against '/webjars/**'
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_empty.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_empty.gif'; against '/error'
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.852 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.security.web.FilterChainProxy        : /console/tree_empty.gif has no matching filters
+2018-10-18 18:44:32.856 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.856 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_column.gif'; against '/css/**'
+2018-10-18 18:44:32.856 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.856 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_column.gif'; against '/js/**'
+2018-10-18 18:44:32.856 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.856 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_column.gif'; against '/images/**'
+2018-10-18 18:44:32.856 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_column.gif'; against '/webjars/**'
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_column.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_database.gif'; against '/css/**'
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_column.gif'; against '/error'
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-7] o.s.security.web.FilterChainProxy        : /console/tree_column.gif has no matching filters
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_type.gif'; against '/css/**'
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_type.gif'; against '/js/**'
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.858 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_type.gif'; against '/images/**'
+2018-10-18 18:44:32.858 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.858 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_type.gif'; against '/webjars/**'
+2018-10-18 18:44:32.858 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.857 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.858 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_type.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.859 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_database.gif'; against '/js/**'
+2018-10-18 18:44:32.862 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.862 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_type.gif'; against '/error'
+2018-10-18 18:44:32.862 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.862 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.security.web.FilterChainProxy        : /console/tree_type.gif has no matching filters
+2018-10-18 18:44:32.859 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.862 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_table.gif'; against '/css/**'
+2018-10-18 18:44:32.862 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.862 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_table.gif'; against '/js/**'
+2018-10-18 18:44:32.862 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.863 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_table.gif'; against '/images/**'
+2018-10-18 18:44:32.863 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.863 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_table.gif'; against '/webjars/**'
+2018-10-18 18:44:32.863 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.863 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_table.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.863 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.863 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_table.gif'; against '/error'
+2018-10-18 18:44:32.863 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.863 DEBUG 16964 --- [http-nio-8181-exec-4] o.s.security.web.FilterChainProxy        : /console/tree_table.gif has no matching filters
+2018-10-18 18:44:32.864 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.864 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index_az.gif'; against '/css/**'
+2018-10-18 18:44:32.864 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.864 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index_az.gif'; against '/js/**'
+2018-10-18 18:44:32.864 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.864 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index_az.gif'; against '/images/**'
+2018-10-18 18:44:32.865 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.866 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index_az.gif'; against '/webjars/**'
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index_az.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index_az.gif'; against '/error'
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-2] o.s.security.web.FilterChainProxy        : /console/tree_index_az.gif has no matching filters
+2018-10-18 18:44:32.862 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_database.gif'; against '/images/**'
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_database.gif'; against '/webjars/**'
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_database.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_database.gif'; against '/error'
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.867 DEBUG 16964 --- [http-nio-8181-exec-9] o.s.security.web.FilterChainProxy        : /console/tree_database.gif has no matching filters
+2018-10-18 18:44:32.868 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.868 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequences.gif'; against '/css/**'
+2018-10-18 18:44:32.868 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.868 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequences.gif'; against '/js/**'
+2018-10-18 18:44:32.868 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.868 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequences.gif'; against '/images/**'
+2018-10-18 18:44:32.868 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.868 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequences.gif'; against '/webjars/**'
+2018-10-18 18:44:32.868 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.865 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.872 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_folder.gif'; against '/css/**'
+2018-10-18 18:44:32.872 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.872 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_folder.gif'; against '/js/**'
+2018-10-18 18:44:32.872 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.872 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_folder.gif'; against '/images/**'
+2018-10-18 18:44:32.873 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.873 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_folder.gif'; against '/webjars/**'
+2018-10-18 18:44:32.873 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.873 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_folder.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.873 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.873 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_folder.gif'; against '/error'
+2018-10-18 18:44:32.873 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.873 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.security.web.FilterChainProxy        : /console/tree_folder.gif has no matching filters
+2018-10-18 18:44:32.875 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.875 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_users.gif'; against '/css/**'
+2018-10-18 18:44:32.875 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.875 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_users.gif'; against '/js/**'
+2018-10-18 18:44:32.875 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.875 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_users.gif'; against '/images/**'
+2018-10-18 18:44:32.875 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.875 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_users.gif'; against '/webjars/**'
+2018-10-18 18:44:32.876 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.876 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_users.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.876 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.876 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_users.gif'; against '/error'
+2018-10-18 18:44:32.866 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.872 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequences.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.877 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.881 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.882 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequence.gif'; against '/css/**'
+2018-10-18 18:44:32.880 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.882 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_user.gif'; against '/css/**'
+2018-10-18 18:44:32.881 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.882 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.security.web.FilterChainProxy        : /console/tree_users.gif has no matching filters
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/css/**']
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_info.gif'; against '/css/**'
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_info.gif'; against '/js/**'
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_info.gif'; against '/images/**'
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_info.gif'; against '/webjars/**'
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_info.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_info.gif'; against '/error'
+2018-10-18 18:44:32.886 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.887 DEBUG 16964 --- [http-nio-8181-exec-8] o.s.security.web.FilterChainProxy        : /console/tree_info.gif has no matching filters
+2018-10-18 18:44:32.881 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index.gif'; against '/css/**'
+2018-10-18 18:44:32.882 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequences.gif'; against '/error'
+2018-10-18 18:44:32.882 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequence.gif'; against '/js/**'
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequence.gif'; against '/images/**'
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequence.gif'; against '/webjars/**'
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequence.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_sequence.gif'; against '/error'
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.895 DEBUG 16964 --- [http-nio-8181-exec-6] o.s.security.web.FilterChainProxy        : /console/tree_sequence.gif has no matching filters
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.895 DEBUG 16964 --- [http-nio-8181-exec-3] o.s.security.web.FilterChainProxy        : /console/tree_sequences.gif has no matching filters
+2018-10-18 18:44:32.882 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/js/**']
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_user.gif'; against '/js/**'
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_user.gif'; against '/images/**'
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_user.gif'; against '/webjars/**'
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_user.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_user.gif'; against '/error'
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.896 DEBUG 16964 --- [http-nio-8181-exec-10] o.s.security.web.FilterChainProxy        : /console/tree_user.gif has no matching filters
+2018-10-18 18:44:32.894 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index.gif'; against '/js/**'
+2018-10-18 18:44:32.897 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/images/**']
+2018-10-18 18:44:32.898 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index.gif'; against '/images/**'
+2018-10-18 18:44:32.898 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/webjars/**']
+2018-10-18 18:44:32.898 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index.gif'; against '/webjars/**'
+2018-10-18 18:44:32.898 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/**/favicon.ico']
+2018-10-18 18:44:32.898 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index.gif'; against '/**/favicon.ico'
+2018-10-18 18:44:32.898 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/error']
+2018-10-18 18:44:32.898 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/console/tree_index.gif'; against '/error'
+2018-10-18 18:44:32.898 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2018-10-18 18:44:32.898 DEBUG 16964 --- [http-nio-8181-exec-5] o.s.security.web.FilterChainProxy        : /console/tree_index.gif has no matching filters
+2018-10-18 18:46:38.049  INFO 16964 --- [Thread-8] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11c8102d: startup date [Thu Oct 18 18:26:53 CEST 2018]; root of context hierarchy
+2018-10-18 18:46:38.056  INFO 16964 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-10-18 18:46:38.058  INFO 16964 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-10-18 18:46:38.060  INFO 16964 --- [Thread-8] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2018-10-18 18:46:38.075  INFO 16964 --- [Thread-8] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2018-10-18 18:46:38.755  INFO 16964 --- [restartedMain] com.glm.conga.CongaApplication           : Starting CongaApplication on ACCOR-S4FW3508 with PID 16964 (C:\glm\gitRepository\conga-app\conga-backend\target\classes started by A609213 in C:\glm\gitRepository\conga-app\conga-backend)
+2018-10-18 18:46:38.756  INFO 16964 --- [restartedMain] com.glm.conga.CongaApplication           : No active profile set, falling back to default profiles: default
+2018-10-18 18:46:38.761  INFO 16964 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fabe29: startup date [Thu Oct 18 18:46:38 CEST 2018]; root of context hierarchy
+2018-10-18 18:46:39.430  INFO 16964 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Dbcp; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Dbcp.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
