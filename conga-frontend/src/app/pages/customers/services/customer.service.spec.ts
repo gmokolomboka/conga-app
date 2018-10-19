@@ -1,6 +1,6 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { DiamantService } from '../models/customer.service';
+import { CustomerService } from '../services/customer.service';
 
 describe('CustomerService', () => {
   beforeEach(() => {

@@ -16,6 +16,11 @@ export class CustomerService {
     return this.http.post(`${api.create}`, customer);
   }
 
+
+  deleteCustomer(id: number): Observable<any>{
+    return this.http.post(`${api.delete}`, id);
+  }
+
   getCustomers(): Observable<Customer[]> {
     return this.http.get<Customer[]>("URL")
       .pipe(

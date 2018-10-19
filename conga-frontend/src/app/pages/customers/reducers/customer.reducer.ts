@@ -1,8 +1,8 @@
 import { Customer } from '../models/customer';
-import { Actions, CREATE_CUSTOMER, DELETE_CUSTOMER } from '../actions/customer.actions';
+import { Actions, CREATE_CUSTOMER, DELETE_CUSTOMER,CREATE_CUSTOMER_SUCCESS, CREATE_CUSTOMER_FAILED } from '../actions/customer.actions';
 
 const initialState: Customer = {
-    id: '1',
+    id: 1,
     civility : 'Monsieur',
     userName: 'gmokolomboka',
     firstName: 'Ghislain',
@@ -13,16 +13,20 @@ const initialState: Customer = {
 };
 
 export function reducer(
-    state: Customer[] = [initialState],
+    state: Customer[] = [],
     action: Actions) {
 
     switch (action.type) {
-        case CREATE_CUSTOMER:
+       
+        case CREATE_CUSTOMER_SUCCESS:
             return [...state, action.payload];
+        
+        case CREATE_CUSTOMER_FAILED:
+            return [...state, action.erreur];
 
         case DELETE_CUSTOMER:
-            return state.filter(({ userName }) => userName !== action.userName);
-
+            return state.filter(({ id }) =>  id !== action.id);
+            
         default:
             return state;
     }

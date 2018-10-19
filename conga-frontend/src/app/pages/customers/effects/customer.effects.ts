@@ -21,7 +21,7 @@ export class CustomerEffects {
     mergeMap((customer: Customer) =>
       this.customerService.createCustomer(customer).pipe(
         map(newCustomer => (new customerActions.CreateCustomerSuccess(newCustomer))),
-        catchError(err => of(new customerActions.CreateCustomerFailed(err)))
+        catchError(erreur => of(new customerActions.CreateCustomerFailed(erreur)))
       )
     )
   );

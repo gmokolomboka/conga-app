@@ -25,14 +25,14 @@ export class CreateCustomerSuccess implements Action {
 export class CreateCustomerFailed implements Action {
     readonly type = CREATE_CUSTOMER_FAILED;
 
-    constructor(public payload: string ) { }
+    constructor(public erreur: string ) { }
 }
 
 
 export class DeleteCustomer implements Action {
     readonly type = DELETE_CUSTOMER;
 
-    constructor(public userName: string) { }
+    constructor(public id: number) { }
 }
 
 export type Actions = CreateCustomer 

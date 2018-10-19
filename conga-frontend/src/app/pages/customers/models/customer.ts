@@ -1,5 +1,5 @@
 export class Customer {
-    id: string;
+    id: number;
     civility: string;
     userName: string;
     lastName: string;
@@ -8,7 +8,7 @@ export class Customer {
     age: number;
     active: boolean;
 
-    constructor(id?: string, civility?:string, username?: string, lastname?: string,firstname?: string, email?: string,age?: number, active?: boolean) {
+    constructor(id, civility?:string, username?: string, lastname?: string,firstname?: string, email?: string,age?: number, active?: boolean) {
         this.id = id;
         this.civility= civility;
         this.userName = username;
