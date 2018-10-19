@@ -26,11 +26,6 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public List<Customer> findAll() {
-        return repository.findAll();
-    }
-
-    @Override
     public Customer findById(int id) {
         return repository.findOne(id);
     }
@@ -39,4 +34,9 @@ public class CustomerServiceImpl implements CustomerService {
     public Customer update(Customer user) {
         return repository.save(user);
     }
+
+	@Override
+	public List<Customer> findAll() {
+		return repository.findAll();
+	}
 }
