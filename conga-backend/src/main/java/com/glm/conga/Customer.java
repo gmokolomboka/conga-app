@@ -13,7 +13,7 @@ public class Customer {
     @Column
     private String civility;
     @Column
-    private String username;
+    private String userName;
     @Column
     private String firstName;
     @Column
@@ -75,15 +75,15 @@ public class Customer {
 	/**
 	 * @return the username
 	 */
-	public String getUsername() {
-		return username;
+	public String getUserName() {
+		return userName;
 	}
 
 	/**
 	 * @param username the username to set
 	 */
-	public void setUsername(String username) {
-		this.username = username;
+	public void setUserName(String username) {
+		this.userName = username;
 	}
 
 	/**
@@ -119,7 +119,7 @@ public class Customer {
 	 */
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", civility=" + civility + ", username=" + username + ", firstName=" + firstName
+		return "Customer [id=" + id + ", civility=" + civility + ", username=" + userName + ", firstName=" + firstName
 				+ ", lastName=" + lastName + ", email=" + email + ", age=" + age + ", active=" + active + "]";
 	}
 
