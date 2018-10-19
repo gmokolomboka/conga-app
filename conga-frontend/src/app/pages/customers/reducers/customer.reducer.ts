@@ -4,9 +4,9 @@ import { Actions, CREATE_CUSTOMER, DELETE_CUSTOMER } from '../actions/customer.a
 const initialState: Customer = {
     id: '1',
     civility : 'Monsieur',
-    username: 'gmokolomboka',
-    firstname: 'Ghislain',
-    lastname: 'Mokolomboka',
+    userName: 'gmokolomboka',
+    firstName: 'Ghislain',
+    lastName: 'Mokolomboka',
     email: 'test@test.fr',
     age: 42,
     active: true
@@ -21,7 +21,7 @@ export function reducer(
             return [...state, action.payload];
 
         case DELETE_CUSTOMER:
-            return state.filter(({ username }) => username !== action.username);
+            return state.filter(({ userName }) => userName !== action.userName);
 
         default:
             return state;

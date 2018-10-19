@@ -32,7 +32,7 @@ export class CreateCustomerFailed implements Action {
 export class DeleteCustomer implements Action {
     readonly type = DELETE_CUSTOMER;
 
-    constructor(public username: string) { }
+    constructor(public userName: string) { }
 }
 
 export type Actions = CreateCustomer 

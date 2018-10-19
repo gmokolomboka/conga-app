@@ -28,9 +28,9 @@ export class CreateCustomerComponent implements OnInit {
       {
            id : id,
            civility : selectedCivility,
-          username : username,
-          lastname : lastname,
-          firstname : firstname,
+          userName : username,
+          lastName : lastname,
+          firstName : firstname,
           email : email,
           age : age,
           active : false

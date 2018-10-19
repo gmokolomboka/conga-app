@@ -11,16 +11,16 @@
 
         
         <div>
-        <label>Nom utilsateur: </label> {{customer.username}}
+        <label>Nom utilsateur: </label> {{customer.userName}}
         </div>
 
         <div>
-            <label>Nom: </label> {{customer.lastname}}
+            <label>Nom: </label> {{customer.lastName}}
         </div>
 
         
         <div>
-            <label>Prénom: </label> {{customer.firstname}}
+            <label>Prénom: </label> {{customer.firstName}}
         </div>
 
         <div>
@@ -30,6 +30,6 @@
         <div>
             <label>Âge: </label> {{customer.age}}
         </div>
-        <span class="button is-small btn-danger" (click)='removeCustomer(customer.username)'>Supprimer</span>
+        <span class="button is-small btn-danger" (click)='removeCustomer(customer.userName)'>Supprimer</span>
         <hr/>
     </div>   
