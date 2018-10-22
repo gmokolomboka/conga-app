@@ -9,9 +9,9 @@
       "@angular/*": [
         "../node_modules/@angular/*"
       ],
-      "@nebular/*": [
-        "../node_modules/@nebular/*"
-      ]
+      "@customers/*": [
+        "./app/pages/customers/*"
+      ],
     }
   },
   "exclude": [
