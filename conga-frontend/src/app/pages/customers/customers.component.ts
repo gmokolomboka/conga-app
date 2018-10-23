@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomersComponent{
   title = 'GLM';
-  description = 'NgRx Example';
+  description = 'Conga App';
   constructor() { }
 
 }

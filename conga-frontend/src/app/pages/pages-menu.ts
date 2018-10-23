@@ -17,6 +17,12 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'nb-compose',
     link: '/pages/customers',
   },
+
+  {
+    title: 'is-up',
+    icon: 'nb-compose',
+    link: '/pages/customers/is-up',
+  },
 /*
   {
     title: 'Customer Details',

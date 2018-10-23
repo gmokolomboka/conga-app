@@ -4,6 +4,7 @@ import { CustomersComponent } from './customers.component';
 import { CreateCustomerComponent } from './create-customer/create-customer.component';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 import { CustomersListComponent } from './customers-list/customers-list.component';
+import { IsUpComponent } from './is-up/is-up.component';
 
 
 export const routes: Routes = [{
@@ -13,13 +14,15 @@ export const routes: Routes = [{
     {
       path: 'create-customer',
       component: CreateCustomerComponent,
-    }, 
-    
+    },
     {
       path: 'customer-details',
       component: CustomerDetailsComponent,
     },
-    
+    {
+      path: 'is-up',
+      component: IsUpComponent,
+    },
     {
       path: 'customers-list',
       component: CustomersListComponent,

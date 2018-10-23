@@ -2,7 +2,7 @@ import { Customer } from '../models/customer';
 import { Actions, CREATE_CUSTOMER, DELETE_CUSTOMER,CREATE_CUSTOMER_SUCCESS, CREATE_CUSTOMER_FAILED } from '../actions/customer.actions';
 
 const initialState: Customer = {
-    id: 1,
+    id: 0,
     civility : 'Monsieur',
     userName: 'gmokolomboka',
     firstName: 'Ghislain',
@@ -13,7 +13,7 @@ const initialState: Customer = {
 };
 
 export function reducer(
-    state: Customer[] = [],
+    state: Customer[] = [initialState],
     action: Actions) {
 
     switch (action.type) {

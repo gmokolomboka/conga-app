@@ -12,6 +12,9 @@ import { reducer } from './reducers/customer.reducer';
 import { EffectsModule } from '@ngrx/effects';
 import { CustomerEffects } from './effects/customer.effects';
 import { CustomerService } from './services/customer.service';
+import { IsUpService } from './is-up/is-up.service';
+import { IsUpComponent } from './is-up/is-up.component';
+
 
 @NgModule({
   imports: [
@@ -20,8 +23,8 @@ import { CustomerService } from './services/customer.service';
     StoreModule.forRoot({ customer:reducer }),
     EffectsModule.forRoot([CustomerEffects])
   ],
-  declarations: [CustomersComponent, CreateCustomerComponent, CustomerDetailsComponent, CustomersListComponent],
-  providers: [CustomerService]
+  declarations: [CustomersComponent, CreateCustomerComponent, CustomerDetailsComponent, CustomersListComponent, IsUpComponent],
+  providers: [CustomerService, IsUpService]
 })
 export class CustomersModule { }
 
