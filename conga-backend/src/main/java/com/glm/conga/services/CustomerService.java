@@ -1,6 +1,8 @@
-package com.glm.conga;
+package com.glm.conga.services;
 
 import java.util.List;
+
+import com.glm.conga.models.Customer;
 
 public interface CustomerService {
 

@@ -1,6 +1,8 @@
-package com.glm.conga;
+package com.glm.conga.repository;
 
 import org.springframework.data.repository.Repository;
+
+import com.glm.conga.models.Customer;
 
 import java.util.List;
 

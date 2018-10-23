@@ -1,7 +1,11 @@
-package com.glm.conga;
+package com.glm.conga.services.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.glm.conga.models.Customer;
+import com.glm.conga.repository.CustomerRepository;
+import com.glm.conga.services.CustomerService;
 
 import java.util.List;
 

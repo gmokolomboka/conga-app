@@ -1,4 +1,4 @@
-package com.glm.conga;
+package com.glm.conga.models;
 
 import javax.persistence.*;
 
