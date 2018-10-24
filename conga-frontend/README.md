@@ -40,3 +40,6 @@ npm --proxy http://PROXY-IP:PORT install
 
 ## Installing Angular cli
 npm --proxy http://PROXY-IP:PORT install -g @angular/cli
+
+## Installing NGRX
+npm install @ngrx/{store,store-devtools,entity,effects} --save

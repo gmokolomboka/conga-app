@@ -10,8 +10,5 @@ import { environment } from '../../../../environments/environment';
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const api = {
-  isup: environment.api + 'isup',
-  isok: environment.api+ 'isok'
-
-  
+  isup: environment.api + 'isup', 
 };
