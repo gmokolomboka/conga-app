@@ -23,7 +23,7 @@ import { IsUpComponent } from './is-up/is-up.component';
     StoreModule.forRoot({ customer:reducer }),
     EffectsModule.forRoot([CustomerEffects])
   ],
-  declarations: [CustomersComponent, CreateCustomerComponent, CustomerDetailsComponent, CustomersListComponent, IsUpComponent],
+  declarations: [CustomersComponent, CreateCustomerComponent, CustomerDetailsComponent, CustomersListComponent],
   providers: [CustomerService, IsUpService]
 })
 export class CustomersModule { }
