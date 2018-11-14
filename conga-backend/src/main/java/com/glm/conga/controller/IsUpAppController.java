@@ -1,5 +1,8 @@
 package com.glm.conga.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
@@ -40,5 +43,20 @@ public class IsUpAppController {
         error.setMessage(ex.getMessage());
         return new ResponseEntity<ErrorResponse>(error, HttpStatus.OK);
     }
+    
+    
+    public boolean getMe() {
+    	
+    	List<String> items = new ArrayList<>();
+    	items.add("A");
+    	items.add("B");
+    	items.add("C");
+    	items.add("D");
+    	items.add("E");
 
+    	for(String item : items){
+    		System.out.println(item);
+    	}    	
+    	return true;
+    }
 }

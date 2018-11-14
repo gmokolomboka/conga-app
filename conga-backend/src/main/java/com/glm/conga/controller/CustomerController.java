@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import com.glm.conga.models.Customer;
 import com.glm.conga.services.CustomerService;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
@@ -41,4 +42,20 @@ public class CustomerController {
     public List<Customer> findAll(){
         return customerService.findAll();
     }
+    
+ public boolean getMe() {
+    	List<String> items = new ArrayList<>();
+    	items.add("A");
+    	items.add("B");
+    	items.add("C");
+    	items.add("D");
+    	items.add("E");
+
+    	for(String item : items){
+    		System.out.println(item);
+    	}    	
+    	return true;
+    }
+
+    
 }
